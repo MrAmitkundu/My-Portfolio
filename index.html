@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Portfolio Front page</title>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="left">
+                <img src="logo1.jpeg" alt="logo" id="logo">
+                <h1 id="greetings">Amit's Portfolio</h1>
+            </div>
+            <div class="right">
+                <a href="/education.html" class="headerlinks"> Education</a>
+                <a href="/experience.html" class="headerlinks"> Experience</a>
+                <a href="/project.html" class="headerlinks"> Projects</a>
+                <a href="/contactme.html" class="headerlinks"> Contact Me</a>
+                <a href="/feedback.html" class="headerlinks"> Feedback</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-body">
+            <div class="left-body">
+                Hii , My name is <span class="coloring">Amit</span>
+                <div class="left-body-line">and I am a passionate</div>
+                <span id="element"></span>
+                <br>
+                <di class="left-body-button">
+                    <a href="/resume.pdf" download=""><button id="button-1" class="button-style">Download Resume</button></a>
+                    <a href="https://github.com/MrAmitkundu"><button id="button-2" class="button-style">Github</button></a>
+                </di>
+            </div>
+            <div class="right-body"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-footer">
+            <div class="left-footer">
+                <p id="l-f-1">Thanks For visiting ...</p>
+                <div id="l-f-2">
+                    <p id="heart">&hearts; </p>
+                    <p id="text1"> from Amit </p>
+                </div>
+            </div>
+            <div class="right-footer">
+                <div id="top-links" class="right-footer-div">
+                    <p class="footer-heading1">Top Links</p>
+                    <ul class="footer-heading1-ul">
+                        <li class="footer-heading1-links"><a href="/education.html" class="footer-heading1-links-a">
+                                Education</a></li>
+                        <li class="footer-heading1-links"><a href="/experience.html" class="footer-heading1-links-a">
+                                Experience</a></li>
+                        <li class="footer-heading1-links"><a href="/project.html" class="footer-heading1-links-a">
+                                Projects</a></li>
+                        <li class="footer-heading1-links"><a href="/contactme.html" class="footer-heading1-links-a">
+                                Contact Me</a></li>
+                        <li class="footer-heading1-links"><a href="/feedback.html" class="footer-heading1-links-a">
+                                Feedback</a></li>
+                    </ul>
+                </div>
+
+                <div id="connect-with-me" class="right-footer-div">
+                    <p class="footer-heading1">Connect With Me</p>
+                    <ul class="footer-heading1-ul">
+                        <li class="footer-heading1-links"><a
+                                href="https://www.facebook.com/profile.php?id=100070695815378&mibextid=qi2Omg&rdid=wENVCZDADyEFzi5Z"
+                                class="footer-heading1-links-a"> Facebook</a></li>
+                        <li class="footer-heading1-links"><a
+                                href="https://www.instagram.com/amit.k.2005?utm_source=qr&igsh=dXU0a2VrN3pqeG15"
+                                class="footer-heading1-links-a"> Instagram</a></li>
+                        <li class="footer-heading1-links"><a href="https://wa.me/qr/VT6TTX6MHI73D1 "
+                                class="footer-heading1-links-a"> Whatsapp</a></li>
+                    </ul>
+                </div>
+
+                <div id="Privacy-policies" class="right-footer-div">
+                    <p class="footer-heading1">Privacy Policies</p>
+                    <ul class="footer-heading1-ul">
+                        <li class="footer-heading1-links"><a href="/" class="footer-heading1-links-a"> Privacy
+                                Policies</a></li>
+                        <li class="footer-heading1-links"><a href="/" class="footer-heading1-links-a"> Copyrights
+                                content</a></li>
+                        <li class="footer-heading1-links"><a href="/" class="footer-heading1-links-a"> Resurved
+                                contents</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Photo Editor', 'Video Editor', 'Freelancer', 'Codder'],
+            typeSpeed: 70,
+        });
+    </script>
+</body>
+
+</html>
