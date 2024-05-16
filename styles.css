@@ -5,6 +5,8 @@
 
 body {
     background-color: rgb(17, 17, 94);
+    max-width: 1920px;
+
 }
 
 .container {
@@ -33,18 +35,6 @@ body {
 .left {
     display: flex;
 
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 50px;
-}
-
-.right {
-    display: flex;
-    justify-content: center;
 }
 
 #logo {
@@ -102,8 +92,10 @@ body {
 
 }
 
-.main-body {
-    height: 1000px;
+.main-all {
+    /* height: 1000px; */
+    height: 120vh;
+      
 }
 
 .right-footer-div {
@@ -117,19 +109,29 @@ body {
 }
 
 .right-body {
-    height: 600px;
-    width: 900px;
-    background-image: url(pic1.png);
-    background-size: cover;
+    height: 70vh;
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    /* background-image: url(pic1.png); */
+    /* background-size: cover; */
+}
+
+.right-body img {
+    
+    height: 90%;
+    width: 90%;
+
 }
 
 .left-body {
-    height: 700px;
-    width: 700px;
+    height: 80vh;
+    width: 40vw;
     color: white;
     font-size: 4rem;
     font-family: "Tilt Neon", sans-serif;
     margin: 100px 0;
+    margin-left: 20px;
 }
 
 .coloring {
@@ -228,6 +230,16 @@ main hr {
 
 }
 
+.exp-text {
+    color: white;
+}
+
+.pro-main ul{
+    color: white;
+}
+
+
+
 .vartical-title {
     position: relative;
     top: 65px;
@@ -273,7 +285,7 @@ main hr {
     padding: 50px 30px;
     border-radius: 20px;
     border: 2px solid rgb(196, 196, 196);
-    backdrop-filter: saturate(130%) blur(10px);
+    /* backdrop-filter: saturate(130%) blur(10px); */
 
 }
 
@@ -328,7 +340,7 @@ main hr {
     padding: 50px 30px;
     border-radius: 20px;
     border: 2px solid rgb(196, 196, 196);
-    backdrop-filter: saturate(130%) blur(10px); 
+    /* backdrop-filter: saturate(130%) blur(10px);  */
 
 }
 
@@ -377,4 +389,20 @@ main hr {
     border: 1px solid black;
     border-radius: 5px;
     font-size: 16px;
+}
+
+.nav-togle{
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
 }
