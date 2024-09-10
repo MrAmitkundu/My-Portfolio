@@ -1,0 +1,16 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "Number To Text ",
+        "image": "C1.jpg",
+        "description": "The provided C code effectively converts a given number into its word representation. It employs a systematic approach that involves breaking down the number into its constituent digits, analyzing their place values, and mapping them to corresponding words.The code begins by prompting the user to enter a number within a specified range."
+      },
+      {
+        "id": 2,
+        "title": "Text To Star Pattern ",
+        "image": "C2.jpg",
+        "description": "The provided C code is a program that prints out a stylized representation of a user's name using ASCII characters. It takes the user's name as input and then displays each letter in a unique, blocky font style. The code includes necessary headers, declares variables, prompts the user for input, iterates through the name, prints the corresponding stylized letter for each character, and waits for user input before exiting. It demonstrates basic C programming concepts like input/output, loops, conditional statements, and character arrays."
+      }
+    ]
+  }
